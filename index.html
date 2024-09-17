@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Symptom Checker</h1>
+        <form id="symptom-form">
+            <div class="symptoms">
+                <label><input type="checkbox" name="symptom" value="fever"> Fever</label>
+                <label><input type="checkbox" name="symptom" value="cough"> Cough</label>
+                <label><input type="checkbox" name="symptom" value="fatigue"> Fatigue</label>
+                <label><input type="checkbox" name="symptom" value="shortness-of-breath"> Shortness of Breath</label>
+                <label><input type="checkbox" name="symptom" value="muscle-aches"> Muscle Aches</label>
+                <label><input type="checkbox" name="symptom" value="headache"> Headache</label>
+                <!-- Add more symptoms as needed -->
+            </div>
+            <button type="button" onclick="predictDisease()">Predict Disease</button>
+        </form>
+        <div id="result" class="result">
+            <!-- Prediction result will be shown here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
