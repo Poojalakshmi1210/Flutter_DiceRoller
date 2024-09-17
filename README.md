@@ -1,5 +1,4 @@
-# Flutter_Project
-## Dice_Roller
-             This is a dice_roller application created using flutter.It is a practice project that have helped me to understand 
-             the basic concepts in flutter and dart.
+# Machine Learning Project
+## Disease Prediction
+             This is a machine learning project that predicts the disease of the user according to their symptoms
              
